@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+<head>
+  <meta name="google-site-verification" content="TQ3bN6L2K5mSMngvMkXgG0ZIbaGL5NEa1qIJaW8x_ZY" />
+  <script data-ad-client="ca-pub-1359341022109890" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="description" content="">
+  <meta name="author" content="Y.YUAN">
+  <meta name="keywords" content="">
+  <title>数学应用｜对称的形成与打破 - YYUAN</title>
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.0.0/styles/github-gist.min.css" />
+  
+
+  
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_yg9cfy8wd6.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_pjno9b9zyxs.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>YYUAN</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                Home
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                Archives
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                Categories
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Donate/">
+                <i class="iconfont icon-slack-fill"></i>
+                Donate
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                Tags
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                About
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="view intro-2" id="background" parallax=true
+         style="background: url('https://s1.ax1x.com/2020/06/02/tN9LrT.jpg') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="container text-center white-text fadeInUp">
+            <span class="h2" id="subtitle">
+              
+            </span>
+
+            
+              
+  <div class="mt-3 post-meta">
+    <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+    <time datetime="2020-06-04 18:50">
+      June 4, 2020 pm
+    </time>
+  </div>
+
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      2.9k 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      28
+       分钟
+    </span>
+  
+
+  
+  
+</div>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="container nopadding-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <div class="post-content mx-auto" id="post">
+            
+            <article class="markdown-body">
+              <p>拥有平衡感是件好事，即使是在物理领域。20世纪20年代，物理学家保罗·狄拉克(Paul Dirac)建立了一个方程来描述电子的行为。这个方程包含了没有物理解释的数学术语，所以为了平衡，狄拉克迅速发明了一个。他规定，每个电子都应该有一个反电子，也就是正电子，这就是方程式中那些额外的分量所代表的。几年后，正电子在宇宙射线中被适时地发现，今天，它们使数百万通过正电子发射断层扫描(PET)得到医学诊断的人们受益。</p>
+<p>这似乎是一个惊人的巧合，但它不是理论先于发现的唯一例子。对平衡的偏爱——精确的对称——是现代物理学的主要指导思想。我们倾向于认为对称是视觉上的东西，但它实际上是一个更广泛的概念。对称是对变化的免疫力。正方形是对称的，因为当它围绕中心旋转90度或在其中一个轴上反射后，它看起来是一样的。在物理学中，找到一个不变的量或模式可以表明你找到了一些基本的东西。</p>
+<p><img src="https://s1.ax1x.com/2020/06/04/tBGVy9.jpg" srcset="/img/loading.gif" alt="tBGVy9.jpg"></p>
+<center><font size=2.5 color=#CD5C5C>多亏了PET扫描的对称性。</font></center>
+
+<p>守恒定律就是一个例子:某些物理量，如能量、动量或电荷，不可能突然消失或从无到有。它们是守恒量。1915年，数学家埃米·诺特将这些守恒量与对称性联系起来。例如，角动量守恒意味着力学定律在旋转下是不变的: 无论实验装置朝北、朝南、朝东或朝西，或者实际上朝中间的任何地方，进行实验的物理学家都会看到相同的结果。诺特的定理说，守恒定律等同于自然定律中的对称性: 每一个守恒定律都伴随着对称性，反之亦然。</p>
+<p>这是对称和物理之间一个很好的深层联系，但我们可以更进一步。对称性可以帮助我们不用看就能推断出宇宙的事情。例如，它可以帮助我们推断像重力这样的力一定存在。</p>
+<h3 id="重力和运动"><a href="#重力和运动" class="headerlink" title="重力和运动"></a>重力和运动</h3><p>自然法则在旋转下保持不变的事实意味着一个被锁在一个没有窗户的盒子里的人无法知道他们朝哪个方向看。如果盒子被启动，同样的情况也会继续存在。只要盒子以恒定的速度移动，没有任何实验或测试能够告诉居住者他们移动的速度，甚至他们是否在移动。坐火车旅行时，我们都有过这样的经历:只要火车不加速、不减速、不转向，轨道不太颠簸，火车里的东西就会和外面月台上的一样。这是另一种对称性:当你把一个以一个恒定速度运动的参照系(盒子或火车的内部)换成另一个以另一个恒定速度运动的参照系时，事物的性质保持不变。</p>
+<p><img src="https://s1.ax1x.com/2020/06/04/tBGwY8.jpg" srcset="/img/loading.gif" alt="tBGwY8.jpg"></p>
+<center><font size=2.5 color= #CD5C5C>我们之所以能在火车上享受美食，是因为物体在匀速运动时和静止时的运动方式是一样的。</font></center>
+
+<p>如果盒子在加速，也就是，加速或减速呢?它的居住者会被排除在自然界的对称性之外吗?答案是否定的，这就是引力的作用。盒子居住者会注意到一些事情正在发生，因为盒子里的所有东西没有被钉住会突然移动到它的一面墙。但事实证明，重力也能做同样的事情。如果盒子移动到一个质量正好的重物体的附近，这个物体的引力可以使盒子里的东西像加速度一样运动。居民无法分辨是重力还是加速度在移动。因此，对称性进一步扩展，使我们可以在没有人注意的情况下，将在加速箱中的观察者与在感觉重力的非加速箱中的观察者互换。</p>
+<p>注意，重力在这一切中至关重要。在一个没有重力的世界里，盒子的居住者肯定能够区分加速度和非加速度。这种对称性只适用于存在类似于重力的力的世界，重力能模拟加速度的作用。对称要求力的存在，即使你从来没有感觉到它，你也可以推断出它的存在。</p>
+<h3 id="对称性和其他力"><a href="#对称性和其他力" class="headerlink" title="对称性和其他力"></a>对称性和其他力</h3><p>阿尔伯特·爱因斯坦，著名的运动是相对的，建立了他的引力理论，称为广义相对论，围绕着这样一个对称原理。在该理论1915年发表后不久，物理学家们意识到，类似的东西也适用于其他力:如果你规定某些对称性成立，那么这些力肯定存在。剑桥大学的数学家和宇宙学家约翰·巴罗解释说:“由此产生的理论，被称为规范理论，是非常不寻常的。“在某种意义上，它们需要这些力量的存在，才能保持自我一致。”</p>
+<p>其他自然力，电磁力，强核力和弱核力，支配着基本粒子的行为，所以对称性也能告诉我们一些关于这些粒子的事情。巴罗解释说:“每一个理论都有一个被保存下来的特定的、相当抽象的模式。”“这种模式的保留，不仅对控制力的行为的规则负有责任，而且还决定了哪些粒子可以存在。” 这是一个非常强大的情况。物理学家们已经对对称的力量和对称论证印象深刻，它们可以推导出支配基本粒子的理论。”</p>
+<p>这还不是全部。20世纪60年代，物理学家提出电磁力和弱力这两种基本力实际上是同一枚硬币的两面:一种统一的电弱力。他们提出了一个统一的数学框架，一个规范理论，来描述两者。“对这些力的基本描述非常类似于麦克斯韦(对电磁的旧描述)，所以这就是统一，”伦敦国王学院的克拉克麦克斯韦教授约翰·埃利斯解释道。“这是一组更复杂的方程式，但原则上，它们相对简单，因为它们之间存在一种对称性。”</p>
+<p>我们希望这种对称性可以进一步扩展，包括其他力。巴罗说:“就好像你有四种模式(对应于我们看到的四种力)，就像一块拼图，你想把它们拼在一起，使它们成为更大模式的一部分。” “你希望把这些碎片结合在一起可以对单个碎片的内容施加一些新的限制，这可能会预测新的粒子或你可以检查的新东西。”</p>
+<h3 id="对称性破裂"><a href="#对称性破裂" class="headerlink" title="对称性破裂"></a>对称性破裂</h3><p>但如果是这样的话，如果这些力，在某种意义上，是一样的，我们今天怎么能把它们看成不同的力呢?答案是，潜在的对称可以隐藏起来，而不会从理论中消失。举个例子，假设一支铅笔在笔尖上保持平衡，由于重力的作用，它有倒下的危险。“在方向方面，万有引力定律是完全民主的，”巴罗解释道。“这并不是说(铅笔)总是要朝北极星的方向倒下去。但在温度为零的完美真空中，量子涨落总是会使它朝某个方向下降。当它倒下时，方向上的对称就被打破了。” 因此，自然法则的一个结果不必拥有与法则本身相同的对称性。</p>
+<p>“我们[自己]就是[破坏对称]的例子，”巴罗说。“现在你和我在宇宙中处于特定的位置，但是在基本层面上，对我们负责的电磁和重力定律，在宇宙中并没有优先的位置。如果你愿意，这是宇宙的秘密之一。怎么会有这么复杂的东西。如果法则的结果必须拥有和法则相同的对称性，那么宇宙中就不会有任何东西。那会是一个相当无聊的地方。”</p>
+<p><a href="https://imgchr.com/i/tBGFWF" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/06/04/tBGFWF.jpg" srcset="/img/loading.gif" alt="tBGFWF.jpg"></a></p>
+<center><font size=2.5 color= #CD5C5C>这支铅笔肯定要倒的。自然法则不能决定它将以何种方式倾覆——它们是旋转对称的。一旦它朝一个方向倾倒，情况就不再是对称的。但这种不对称是自然法则的结果，而不是法则本身。</font></center>
+
+<p>就力而言，其观点是，当宇宙从大爆炸开始冷却下来，在这段时间里它是均匀的，高度对称的，力就像结晶一样变得不同。“最初的预期是一切都是高度对称的，然后逐渐达到一定的阈值，”巴罗解释说。“当你达到一个特定的温度时，强磁力就会和其他的不同，所以一种对称性就会被打破，最终弱磁力和电磁力就会变成不同的力。所以当宇宙冷却时，存在着这些破坏对称的时刻，就像铅笔朝一个方向落下一样。”</p>
+<h3 id="对称和现实"><a href="#对称和现实" class="headerlink" title="对称和现实"></a>对称和现实</h3><p>所有这些似乎都是一个非常苛刻的要求。我们的宇宙充满了极其复杂的现象，很难相信它会遵循一些基于对称假设的相当简单的定律。然而，这种理论化已经导致了相当多的发现。弱电磁力和电磁力的统一，以及潜在对称性的打破，需要相对重的粒子Z和W玻色子的存在。粒子可以重，而不是像对称性规定的那样无质量，这一事实反过来需要著名的希格斯玻色子的存在。这些粒子中的每一个都确实存在:上世纪80年代，CERN发现了Z和W玻色子，2012年发现了希格斯玻色子。</p>
+<p>同样值得注意的是，简单的理论并不一定意味着简单的计算。举例来说，物理学家认为支配强核力的理论总体结构相对简单，但要真正描述现实世界的现象，你需要进行的计算是如此复杂，即使是最快的超级计算机也无法实现。“我们有数学上的争论，把我们引向一个候选的[理论]，但我们不知道如何解决规律，得出结果，”巴罗说。“结果要复杂得多。它们不必拥有和定律相同的对称性。”</p>
+<p>那么就是这样了吗?物理学家们会忘记实验而仅仅依靠理论吗?不完全是。埃利斯说:“(特别是在粒子物理学方面)我认为(在上个世纪左右的时间里)有一场狗狗赛跑，在理论学家没有预测到的粒子和理论学家预测到的粒子之间，后来被实验学家发现了。” “两者都发生了，我认为这反映了一个事实，即科学是通过理论和实验之间的持续对话而进步的。”</p>
+<font size=2.5, color=#696969>作者： Marianne Freiberger</font>
+<font size=2.5, color=#696969>翻译： If Any</font>
+            </article>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/paper/">paper</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/math/">math</a>
+                    
+                      <a class="hover-with-bg" href="/tags/universe/">universe</a>
+                    
+                      <a class="hover-with-bg" href="/tags/Higgs-boson/">Higgs boson</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" target="_blank" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！</p>
+              
+              
+                <div class="post-prevnext row">
+                  <div class="post-prev col-6">
+                    
+                    
+                      <a href="/2020/06/04/%E7%8E%B0%E5%AE%9E%E4%B8%AD%E7%9A%84%E6%B0%B8%E6%97%A0%E6%AD%A2%E5%A2%83%E7%9A%84%E6%95%85%E4%BA%8B/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">现实中的永无止境的故事</span>
+                        <span class="visible-mobile">Previous</span>
+                      </a>
+                    
+                  </div>
+                  <div class="post-next col-6">
+                    
+                    
+                      <a href="/2020/06/04/%E9%87%8D%E5%8A%9B%E6%98%AF%E6%97%B6%E9%97%B4%E7%9A%84%E5%BC%93%E7%AE%AD%E6%89%8B%E5%90%97%EF%BC%9F/">
+                        <span class="hidden-mobile">重力是时间的弓箭手吗？</span>
+                        <span class="visible-mobile">Next</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </div>
+                </div>
+              
+            </div>
+
+            
+              <!-- Comments -->
+              <div class="comments" id="comments">
+                
+                
+  <div id="lv-container" data-id="city" data-uid="MTAyMC81MDMyNy8yNjgxNw==">
+    <script type="text/javascript">
+      (function (d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+
+        if (typeof LivereTower === 'function') {
+          return;
+        }
+
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.defer = true;
+
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
+    <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+  </div>
+
+
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;TOC</p>
+  <div id="tocbot"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+  </main>
+
+  
+    <a id="scroll-top-button" href="#" role="button">
+      <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+    </a>
+  
+
+  
+    <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+  
+
+  
+
+  <footer class="mt-5">
+  <div class="text-center py-3">
+    <div>
+      <a href="https://www.sciencemag.org/" target="_blank" rel="nofollow noopener"><span>Science</span></a>
+      <i class="iconfont icon-love"></i>
+      <a href="https://github.com/YYUANgit/" target="_blank" rel="nofollow noopener">
+        <span>YYUAN</span></a>
+    </div>
+    
+  <div class="statistics">
+    
+    
+
+    
+      
+        <!-- LeanCloud 统计PV -->
+        <span id="leancloud-site-pv-container" style="display: none">
+            总访问量 
+            <span id="leancloud-site-pv"></span>
+             次
+          </span>
+      
+      
+        <!-- LeanCloud 统计UV -->
+        <span id="leancloud-site-uv-container" style="display: none">
+            总访客数 
+            <span id="leancloud-site-uv"></span>
+             人
+          </span>
+      
+
+    
+  </div>
+
+
+    
+
+    
+  </div>
+</footer>
+
+<!-- SCRIPTS -->
+<script  src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js" ></script>
+<script  src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+<script  src="/js/debouncer.js" ></script>
+<script  src="/js/main.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/js/lazyload.js" ></script>
+  
+
+
+
+  <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.6/clipboard.min.js" ></script>
+  <script  src="/js/clipboard-use.js" ></script>
+
+
+
+  <script defer>
+  (function () {
+    // 查询存储的记录
+    function getRecord(Counter, target) {
+      return new Promise(function (resolve, reject) {
+        Counter('get', '/classes/Counter?where=' + encodeURIComponent(JSON.stringify({target})))
+          .then(resp => resp.json())
+          .then(({results, code, error}) => {
+            if (code === 401) {
+              throw error;
+            }
+            if (results && results.length > 0) {
+              var record = results[0];
+              resolve(record);
+            } else {
+              Counter('post', '/classes/Counter', {target, time: 0})
+                .then(resp => resp.json())
+                .then((record, error) => {
+                  if (error) {
+                    throw error;
+                  }
+                  resolve(record);
+                }).catch(error => {
+                console.error('Failed to create', error);
+                reject(error);
+              });
+            }
+          }).catch((error) => {
+          console.error('LeanCloud Counter Error:', error);
+          reject(error);
+        });
+      })
+    }
+
+    // 发起自增请求
+    function increment(Counter, incrArr) {
+      return new Promise(function (resolve, reject) {
+        Counter('post', '/batch', {
+          "requests": incrArr
+        }).then((res) => {
+          res = res.json();
+          if (res.error) {
+            throw res.error;
+          }
+          resolve(res);
+        }).catch((error) => {
+          console.error('Failed to save visitor count', error);
+          reject(error);
+        });
+      });
+    }
+
+    // 构建自增请求体
+    function buildIncrement(objectId) {
+      return {
+        "method": "PUT",
+        "path": `/1.1/classes/Counter/${ objectId }`,
+        "body": {
+          "time": {
+            '__op': 'Increment',
+            'amount': 1
+          }
+        }
+      }
+    }
+
+    // 校验是否为有效的 UV
+    function validUV() {
+      var key = 'LeanCloud_UV_Flag';
+      var flag = localStorage.getItem(key);
+      if (flag) {
+        // 距离标记小于 24 小时则不计为 UV
+        if (new Date().getTime() - parseInt(flag) <= 86400000) {
+          return false;
+        }
+      }
+      localStorage.setItem(key, new Date().getTime().toString());
+      return true;
+    }
+
+    function addCount(Counter) {
+      var enableIncr = 'true' === 'true' && window.location.hostname !== 'localhost';
+      var getterArr = [];
+      var incrArr = [];
+
+      // 请求 PV 并自增
+      var pvCtn = document.querySelector('#leancloud-site-pv-container');
+      if (pvCtn || enableIncr) {
+        var pvGetter = getRecord(Counter, 'site-pv').then((record) => {
+          incrArr.push(buildIncrement(record.objectId))
+          var ele = document.querySelector('#leancloud-site-pv');
+          if (ele) {
+            ele.innerText = record.time + 1;
+            if (pvCtn) {
+              pvCtn.style.display = 'inline';
+            }
+          }
+        });
+        getterArr.push(pvGetter);
+      }
+
+      // 请求 UV 并自增
+      var uvCtn = document.querySelector('#leancloud-site-uv-container');
+      if (uvCtn || enableIncr) {
+        var uvGetter = getRecord(Counter, 'site-uv').then((record) => {
+          var vuv = validUV();
+          vuv && incrArr.push(buildIncrement(record.objectId))
+          var ele = document.querySelector('#leancloud-site-uv');
+          if (ele) {
+            ele.innerText = record.time + (vuv ? 1 : 0);
+            if (uvCtn) {
+              uvCtn.style.display = 'inline';
+            }
+          }
+        });
+        getterArr.push(uvGetter);
+      }
+
+      // 如果是文章，请求文章的浏览数，并自增
+      if ('true' === 'true') {
+        var viewCtn = document.querySelector('#leancloud-post-views-container');
+        if (viewCtn || enableIncr) {
+          var target = decodeURI('/2020/06/04/%E6%95%B0%E5%AD%A6%E5%BA%94%E7%94%A8%EF%BD%9C%E5%AF%B9%E7%A7%B0%E7%9A%84%E5%BD%A2%E6%88%90%E4%B8%8E%E6%89%93%E7%A0%B4/');
+          var viewGetter = getRecord(Counter, target).then((record) => {
+            incrArr.push(buildIncrement(record.objectId))
+            if (viewCtn) {
+              var ele = document.querySelector('#leancloud-post-views');
+              if (ele) {
+                ele.innerText = (record.time || 0) + 1;
+                viewCtn.style.display = 'inline';
+              }
+            }
+          });
+          getterArr.push(viewGetter);
+        }
+      }
+
+      // 如果启动计数自增，批量发起自增请求
+      if (enableIncr) {
+        Promise.all(getterArr).then(() => {
+          incrArr.length > 0 && increment(Counter, incrArr);
+        })
+      }
+    }
+
+    var app_id = 'hJKb1qeiswhJEYE8TC8SgqG3-gzGzoHsz'
+    var app_key = 'Da9oBmeeiPINA8P39CvsFc7I'
+    var server_url = ''
+
+    function fetchData(api_server) {
+      var Counter = (method, url, data) => {
+        return fetch(`${ api_server }/1.1${ url }`, {
+          method,
+          headers: {
+            'X-LC-Id': app_id,
+            'X-LC-Key': app_key,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(data)
+        });
+      };
+
+      addCount(Counter);
+    }
+
+    var api_server = app_id.slice(-9) !== '-MdYXbMMI' ? server_url : `https://${ app_id.slice(0, 8).toLowerCase() }.api.lncldglobal.com`;
+
+    if (api_server) {
+      fetchData(api_server);
+    } else {
+      fetch('https://app-router.leancloud.cn/2/route?appId=' + app_id)
+        .then(resp => resp.json())
+        .then(({api_server}) => {
+          fetchData('https://' + api_server);
+        });
+    }
+  })();
+</script>
+
+
+
+
+
+
+  <script  src="https://cdn.staticfile.org/tocbot/4.11.1/tocbot.min.js" ></script>
+  <script>
+    $(document).ready(function () {
+      var boardCtn = $('#board-ctn');
+      var boardTop = boardCtn.offset().top;
+
+      tocbot.init({
+        tocSelector: '#tocbot',
+        contentSelector: 'article.markdown-body',
+        headingSelector: 'h1,h2,h3,h4,h5,h6',
+        linkClass: 'tocbot-link',
+        activeLinkClass: 'tocbot-active-link',
+        listClass: 'tocbot-list',
+        isCollapsedClass: 'tocbot-is-collapsed',
+        collapsibleClass: 'tocbot-is-collapsible',
+        collapseDepth: 0,
+        scrollSmooth: true,
+        headingsOffset: -boardTop
+      });
+      if ($('.toc-list-item').length > 0) {
+        $('#toc').css('visibility', 'visible');
+      }
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/typed.js/2.0.11/typed.min.js" ></script>
+  <script>
+    var typed = new Typed('#subtitle', {
+      strings: [
+        '  ',
+        "数学应用｜对称的形成与打破&nbsp;",
+      ],
+      cursorChar: "_",
+      typeSpeed: 70,
+      loop: false,
+    });
+    typed.stop();
+    $(document).ready(function () {
+      $(".typed-cursor").addClass("h2");
+      typed.start();
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/anchor-js/4.2.2/anchor.min.js" ></script>
+  <script>
+    anchors.options = {
+      placement: "right",
+      visible: "hover",
+      
+    };
+    var el = "h1,h2,h3,h4,h5,h6".split(",");
+    var res = [];
+    for (item of el) {
+      res.push(".markdown-body > " + item)
+    }
+    anchors.add(res.join(", "))
+  </script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+  <script>
+    var path = "/local-search.xml";
+    var inputArea = document.querySelector("#local-search-input");
+    inputArea.onclick = function () {
+      searchFunc(path, 'local-search-input', 'local-search-result');
+      this.onclick = null
+    }
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <script>
+    $('#post img:not(.no-zoom img, img[no-zoom]), img[zoom]').each(
+      function () {
+        var element = document.createElement('a');
+        $(element).attr('data-fancybox', 'images');
+        $(element).attr('href', $(this).attr('src'));
+        $(this).wrap(element);
+      }
+    );
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+</body>
+</html>
