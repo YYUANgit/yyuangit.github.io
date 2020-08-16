@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+<head>
+  <meta name="google-site-verification" content="TQ3bN6L2K5mSMngvMkXgG0ZIbaGL5NEa1qIJaW8x_ZY" />
+  <script data-ad-client="ca-pub-1359341022109890" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="description" content="">
+  <meta name="author" content="Y.YUAN">
+  <meta name="keywords" content="">
+  <title>理解信息 - YYUAN</title>
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.0.0/styles/github-gist.min.css" />
+  
+
+  
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_yg9cfy8wd6.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_pjno9b9zyxs.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>YYUAN</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                Home
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                Archives
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                Categories
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Donate/">
+                <i class="iconfont icon-slack-fill"></i>
+                Donate
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                Tags
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                About
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="view intro-2" id="background" parallax=true
+         style="background: url('https://imgchr.com/i/dVMN3n') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="container text-center white-text fadeInUp">
+            <span class="h2" id="subtitle">
+              
+            </span>
+
+            
+              
+  <div class="mt-3 post-meta">
+    <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+    <time datetime="2020-08-13 20:20">
+      August 13, 2020 pm
+    </time>
+  </div>
+
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      2.9k 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      29
+       分钟
+    </span>
+  
+
+  
+  
+</div>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="container nopadding-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <div class="post-content mx-auto" id="post">
+            
+            <article class="markdown-body">
+              <p>信息:我们都知道它是什么，但没有人知道如何定义它。它显然比我们周围看到的实物更抽象，比如苹果或冰箱。但是，与爱或质数等抽象概念不同的是，它总是有一个物理的表现形式——无论是在书页里，在电脑里，还是在我们大脑的神经元里。事实上，同一条信息可以有很多不同的表现形式:它可以以英文和祖鲁语的形式出现在印刷品和屏幕上，这使得信息如此强大，使科学和文学这样的努力成为可能。</p>
+<p>考虑到它的力量，缺乏对信息的精确定义是令人不满意的。有一个关于信息的数学理论，是由克劳德·香农在20世纪50年代提出的，但这实际上是一个关于信息通过物理手段传递的理论，比如电话或电子邮件，而不是信息本身。然而，如果我们有一个科学的信息理论，这可能会阐明一些对我们非常重要的概念，比如生命的起源和进化(这取决于包含在DNA中的信息)，意识，甚至是我们是否有自由意志的问题。</p>
+<p><img src="https://s1.ax1x.com/2020/08/13/dpbmyq.jpg" srcset="/img/loading.gif" alt="dpbmyq.jpg"></p>
+<center><font size=2.5 color=#CD5C5C>信息可以存在于页面上，也可以存在于你的大脑中，也可以存在于电脑中。</font></center>
+
+<p>这就是为什么牛津大学的理论物理学家David Deutsch和Chiara Marletto提出了一种新的思考物理学的方法，他们说，这种方法允许我们用物理术语来定义什么是信息。我们通过信息论所拥有的一切，如香农的努力，都可以从他们所谓的构造者理论中得到。它还可以涵盖和扩展量子信息，正如Marletto所说的，“希望将量子计算的企业提升到一个新的水平。”</p>
+<h3 id="绿灯行"><a href="#绿灯行" class="headerlink" title="绿灯行"></a>绿灯行</h3><p>为了设置场景，让我们从一些关于信息本质的想法开始。作为一个指导性的类比，可以想象一个行人红绿灯。作为一种信息载体，它既简单又高效。为什么?因为它可以处于不止一种状态:红色或绿色。如果没有这个多项选择，如果交通灯只能是红色的，那么它显然是没有用的。在红灯和绿灯之间切换也是很重要的:一个卡住的红绿灯和只有一种颜色的红绿灯一样没用。</p>
+<p>第三，红绿灯要发挥信息载体的功能，就需要有一个物理过程，将红绿灯上发生的事情转化到行人的大脑中。如果没有红绿灯，比如有人把一个袋子塞在红绿灯上，那么交通灯也没用。</p>
+<p>这些想法也适用于更广泛的领域。为了获得信息，你总是需要多重的选择和一个在选择之间切换的过程。同样，对于被视为信息的东西，它必须有可能被复制。你需要能够将它复制到你第一次发现它的介质的第二个瞬间，例如十字路口另一边的行人灯光。但你也需要能够将信息复制到完全不同的媒介上，例如从红绿灯复制到计算机的开关，或者大脑中的电流。</p>
+<h3 id="构造函数理论"><a href="#构造函数理论" class="headerlink" title="构造函数理论"></a>构造函数理论</h3><p>通常的物理学并不适合描述信息，因为它不善于考虑反事实，也就是说，所有可能的选项都与实际情况相关联。传统物理学倾向于用一种“如果-那么”的方式来讨论这个世界:如果交通灯上的红灯开着，那么特定波长的光就会沿着特定的方向传播。物理定律的目的是告诉我们，给定一组特定的初始条件，物体将如何穿越时间和空间。“(这种思考物理现实的方式非常成功)，但有些现象似乎逃脱了这一逻辑，在这种方法中没有得到充分的解释。”这些现象之一就是信息，”马莱托说。</p>
+<p><img src="https://s1.ax1x.com/2020/08/13/dp7AHS.png" srcset="/img/loading.gif" alt="dp7AHS.png"></p>
+<center><font size=2.5 color=#CD5C5C>交通灯是一种很好的信息媒介，因为它可以在两种状态之间切换。</font></center>
+
+<p>相比之下，构造者理论则是根据可能发生的事情来描述世界。我们的目的，不是说在给定一组特定的初始条件下，一个系统会经历什么样的转换，而是从它可能经历的所有转换的角度来思考，并识别出那些它不可能经历的。能够引起系统转换，并且能够重复这样做的机制称为构造器(这个术语是著名数学家约翰·冯·诺伊曼(John von Neumann)在思考生命进化时首次提出的)。Deutsch和Marletto甚至提出，所有的物理现实最终都可以按照“可能的”(这意味着一个特定的构造函数存在)和“不可能的”(这意味着一个特定的构造函数不存在)来描述。</p>
+<p>乍一看，这个想法似乎有些疯狂。各种各样的东西都可以被称为构造器:一个人打开红绿灯，一壶水烧开，一台计算机将输入转换为输出。在其他星球上也可能有外星人在做着我们从未听说过的奇怪的事情。我们怎么可能描述它们，更不用说它们带来的无数变化了?</p>
+<p>答案是我们不需要。除了它的名字，构造函数理论并不关心是谁或什么带来了转换，只关心它们是可能的。它抽象了构造函数，旨在提出适用于所有物理系统的关于什么允许、什么不允许的一般原则。我们已经从普通物理学中熟悉了一些这样的原理。例如，能量守恒原理告诉我们，物理系统的任何转化都不能凭空产生能量或破坏能量。我们不需要对所涉及的过程或导致这些过程的原因进行描述，就可以理解概念。</p>
+<p>构造者理论的目的是提出一个类似性质的原则，而不是设计来取代现有的物理定律。相反，它们旨在约束它们:正如任何物理定律都必须遵循能量守恒的原则一样，它也必须遵循构造函数理论的原则。在这个意义上，构造者理论是一个元理论，提供指导原则，所有其他物理定律必须坚持。</p>
+<h3 id="回到信息"><a href="#回到信息" class="headerlink" title="回到信息"></a>回到信息</h3><p>构造函数理论为我们提供了一种讨论可能成为信息良好载体的物理系统的方法，比如交通灯或计算机。正如我们在上面看到的，这样的系统需要能够处于至少两种不同的状态(例如绿色或红色)。我们还需要一个构造函数，可以将系统从具有任何一个属性转换为具有任何其他属性(例如，将交通灯从绿色转换为红色的过程)。我们不关心构造函数是什么，它可能涉及人类，或机器，或只是自然，但它就是存在的。</p>
+<p>“你想要的另一个特性(一个可以携带信息的系统)是，它所处的状态可以复制到其他物理支撑上，比如路人的大脑，”Marletto解释道。“一旦你拥有了这些特性，即可复制性，以及你可以在不同状态之间切换的事实，你就从所有的物理系统中挑出了一组可以携带信息的物理系统。”你挑出了一些信息媒体，就它们的物理构成而言，它们是如此的不同，以至于传统物理学很难在相同的框架下考虑它们。</p>
+<p><img src="https://s1.ax1x.com/2020/08/13/dp7kB8.png" srcset="/img/loading.gif" alt="dp7kB8.png"></p>
+<center><font size=2.5 color=#CD5C5C>牛顿的摇篮证明了能量守恒的原理，所有的物理定律都必须遵循这个原理。图片来源：</font><font size=2.5 color=#4169E1> DemonDeLuxe, CC BY-SA 3,0.</font></center>
+
+<p>那么如何定义信息本身呢?给定一个如上所述具有多个状态的信息媒介，该信息通过具有反事实属性的状态集来体现。对于交通灯，这是一组颜色{红，绿}。信息量可以通过属性集的大小来量化。更复杂的信息媒体，如计算机，可以有更多不同的状态，因此携带更多的信息。</p>
+<p>利用这个想法，Deutsch和Marletto列出了他们认为构成普遍信息法则的各种原则。这包括信息的互操作性原则:信息可以以不同的形式存在于不同的媒体中，可以从一种媒体复制到另一种媒体，同时保留其作为信息的属性。</p>
+<p>至关重要的是，构造函数理论方法不会以牺牲其他物理理论为代价预先假设任何特定的物理理论。这使得它不仅包含了香农的信息理论，而且还包含了量子信息。量子信息有望成为下一次信息技术革命的基础，但到目前为止，它的定义还很模糊。当Marletto谈到将量子信息理论提升到一个新的水平时，她的意思是，构造函数理论可能不仅能够描述一台通用量子计算机，一台可以执行任何计算的机器。它还可以为描述通用构造函数提供理论基础。这台机器可以进行任何自然允许的物理转化，包括与生命密切相关的生物转化。</p>
+<h3 id="构造函数理论已经实践了吗？"><a href="#构造函数理论已经实践了吗？" class="headerlink" title="构造函数理论已经实践了吗？"></a>构造函数理论已经实践了吗？</h3><p>那么，世界各地的物理学家们是否都在用建构论来验证或重塑他们的物理定律呢?</p>
+<p>没有相当。但是，Marletto和越来越多的合作者正忙于通过将其应用于有问题的物理领域来展示其用途。一个例子是物理系统，包括一个物体遵守量子物理的奇怪定律，比如一个很小的粒子，与一些我们不知道它是否遵守量子物理定律的东西相互作用，比如重力。“[在这种情况下]拥有一个包罗万象并被所有动态规律所遵守的原则，如信息的互操作性原则，是非常有用的，”Marletto说。她在这一领域的研究成果提出了一个设想，即如何在引力场中观察量子效应，这一设想不久将通过实验得到验证。</p>
+<p>马莱托还根据构造器理论研究了多少令人困惑的热能和能量理论——热力学，以及我们最好的生命理论——达尔文的自然选择进化论。</p>
+<p>这个用构造器理论描述所有物理现实的程序是否成功还有待观察。但是玛莱托并不害怕失败。她表示:“这家企业可能会失败，我很高兴这么说。”“因为它的发展方向与标准的方向非常不同，它必然会遇到一些改变我们思考事物的方式的事情。”即使我们目前正在开发的工具不起作用，无论我们将发现什么，都将改变我们对现实的看法，并将作为在物理学上取得进展的工具。我认为这很令人兴奋!”</p>
+<font size=2.5, color=#696969>作者： Marianne Freiberger</font>
+<font size=2.5, color=#696969>翻译： If Any</font>
+            </article>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/paper/">paper</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/physics/">physics</a>
+                    
+                      <a class="hover-with-bg" href="/tags/constructor-theory/">constructor theory</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" target="_blank" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！</p>
+              
+              
+                <div class="post-prevnext row">
+                  <div class="post-prev col-6">
+                    
+                    
+                      <a href="/2020/08/14/%E7%94%9F%E6%B4%BB%E3%80%81%E9%80%89%E6%8B%A9%E3%80%81%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98%E2%80%A6%E2%80%A6%E5%92%8C%E4%B8%80%E4%BA%9B%E7%AD%94%E6%A1%88/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">生活、选择、其他问题……和一些答案</span>
+                        <span class="visible-mobile">Previous</span>
+                      </a>
+                    
+                  </div>
+                  <div class="post-next col-6">
+                    
+                    
+                      <a href="/2020/08/13/%E7%94%9F%E6%B4%BB%E3%80%81%E9%80%89%E6%8B%A9%E5%92%8C%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/">
+                        <span class="hidden-mobile">生活、选择和其他问题</span>
+                        <span class="visible-mobile">Next</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </div>
+                </div>
+              
+            </div>
+
+            
+              <!-- Comments -->
+              <div class="comments" id="comments">
+                
+                
+  <div id="lv-container" data-id="city" data-uid="MTAyMC81MDMyNy8yNjgxNw==">
+    <script type="text/javascript">
+      (function (d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+
+        if (typeof LivereTower === 'function') {
+          return;
+        }
+
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.defer = true;
+
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
+    <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+  </div>
+
+
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;TOC</p>
+  <div id="tocbot"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+  </main>
+
+  
+    <a id="scroll-top-button" href="#" role="button">
+      <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+    </a>
+  
+
+  
+    <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+  
+
+  
+
+  <footer class="mt-5">
+  <div class="text-center py-3">
+    <div>
+      <a href="https://www.sciencemag.org/" target="_blank" rel="nofollow noopener"><span>Science</span></a>
+      <i class="iconfont icon-love"></i>
+      <a href="https://github.com/YYUANgit/" target="_blank" rel="nofollow noopener">
+        <span>YYUAN</span></a>
+    </div>
+    
+  <div class="statistics">
+    
+    
+
+    
+      
+        <!-- LeanCloud 统计PV -->
+        <span id="leancloud-site-pv-container" style="display: none">
+            总访问量 
+            <span id="leancloud-site-pv"></span>
+             次
+          </span>
+      
+      
+        <!-- LeanCloud 统计UV -->
+        <span id="leancloud-site-uv-container" style="display: none">
+            总访客数 
+            <span id="leancloud-site-uv"></span>
+             人
+          </span>
+      
+
+    
+  </div>
+
+
+    
+
+    
+  </div>
+</footer>
+
+<!-- SCRIPTS -->
+<script  src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js" ></script>
+<script  src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+<script  src="/js/debouncer.js" ></script>
+<script  src="/js/main.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/js/lazyload.js" ></script>
+  
+
+
+
+  <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.6/clipboard.min.js" ></script>
+  <script  src="/js/clipboard-use.js" ></script>
+
+
+
+  <script defer>
+  (function () {
+    // 查询存储的记录
+    function getRecord(Counter, target) {
+      return new Promise(function (resolve, reject) {
+        Counter('get', '/classes/Counter?where=' + encodeURIComponent(JSON.stringify({target})))
+          .then(resp => resp.json())
+          .then(({results, code, error}) => {
+            if (code === 401) {
+              throw error;
+            }
+            if (results && results.length > 0) {
+              var record = results[0];
+              resolve(record);
+            } else {
+              Counter('post', '/classes/Counter', {target, time: 0})
+                .then(resp => resp.json())
+                .then((record, error) => {
+                  if (error) {
+                    throw error;
+                  }
+                  resolve(record);
+                }).catch(error => {
+                console.error('Failed to create', error);
+                reject(error);
+              });
+            }
+          }).catch((error) => {
+          console.error('LeanCloud Counter Error:', error);
+          reject(error);
+        });
+      })
+    }
+
+    // 发起自增请求
+    function increment(Counter, incrArr) {
+      return new Promise(function (resolve, reject) {
+        Counter('post', '/batch', {
+          "requests": incrArr
+        }).then((res) => {
+          res = res.json();
+          if (res.error) {
+            throw res.error;
+          }
+          resolve(res);
+        }).catch((error) => {
+          console.error('Failed to save visitor count', error);
+          reject(error);
+        });
+      });
+    }
+
+    // 构建自增请求体
+    function buildIncrement(objectId) {
+      return {
+        "method": "PUT",
+        "path": `/1.1/classes/Counter/${ objectId }`,
+        "body": {
+          "time": {
+            '__op': 'Increment',
+            'amount': 1
+          }
+        }
+      }
+    }
+
+    // 校验是否为有效的 UV
+    function validUV() {
+      var key = 'LeanCloud_UV_Flag';
+      var flag = localStorage.getItem(key);
+      if (flag) {
+        // 距离标记小于 24 小时则不计为 UV
+        if (new Date().getTime() - parseInt(flag) <= 86400000) {
+          return false;
+        }
+      }
+      localStorage.setItem(key, new Date().getTime().toString());
+      return true;
+    }
+
+    function addCount(Counter) {
+      var enableIncr = 'true' === 'true' && window.location.hostname !== 'localhost';
+      var getterArr = [];
+      var incrArr = [];
+
+      // 请求 PV 并自增
+      var pvCtn = document.querySelector('#leancloud-site-pv-container');
+      if (pvCtn || enableIncr) {
+        var pvGetter = getRecord(Counter, 'site-pv').then((record) => {
+          incrArr.push(buildIncrement(record.objectId))
+          var ele = document.querySelector('#leancloud-site-pv');
+          if (ele) {
+            ele.innerText = record.time + 1;
+            if (pvCtn) {
+              pvCtn.style.display = 'inline';
+            }
+          }
+        });
+        getterArr.push(pvGetter);
+      }
+
+      // 请求 UV 并自增
+      var uvCtn = document.querySelector('#leancloud-site-uv-container');
+      if (uvCtn || enableIncr) {
+        var uvGetter = getRecord(Counter, 'site-uv').then((record) => {
+          var vuv = validUV();
+          vuv && incrArr.push(buildIncrement(record.objectId))
+          var ele = document.querySelector('#leancloud-site-uv');
+          if (ele) {
+            ele.innerText = record.time + (vuv ? 1 : 0);
+            if (uvCtn) {
+              uvCtn.style.display = 'inline';
+            }
+          }
+        });
+        getterArr.push(uvGetter);
+      }
+
+      // 如果是文章，请求文章的浏览数，并自增
+      if ('true' === 'true') {
+        var viewCtn = document.querySelector('#leancloud-post-views-container');
+        if (viewCtn || enableIncr) {
+          var target = decodeURI('/2020/08/13/%E7%90%86%E8%A7%A3%E4%BF%A1%E6%81%AF/');
+          var viewGetter = getRecord(Counter, target).then((record) => {
+            incrArr.push(buildIncrement(record.objectId))
+            if (viewCtn) {
+              var ele = document.querySelector('#leancloud-post-views');
+              if (ele) {
+                ele.innerText = (record.time || 0) + 1;
+                viewCtn.style.display = 'inline';
+              }
+            }
+          });
+          getterArr.push(viewGetter);
+        }
+      }
+
+      // 如果启动计数自增，批量发起自增请求
+      if (enableIncr) {
+        Promise.all(getterArr).then(() => {
+          incrArr.length > 0 && increment(Counter, incrArr);
+        })
+      }
+    }
+
+    var app_id = 'hJKb1qeiswhJEYE8TC8SgqG3-gzGzoHsz'
+    var app_key = 'Da9oBmeeiPINA8P39CvsFc7I'
+    var server_url = ''
+
+    function fetchData(api_server) {
+      var Counter = (method, url, data) => {
+        return fetch(`${ api_server }/1.1${ url }`, {
+          method,
+          headers: {
+            'X-LC-Id': app_id,
+            'X-LC-Key': app_key,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(data)
+        });
+      };
+
+      addCount(Counter);
+    }
+
+    var api_server = app_id.slice(-9) !== '-MdYXbMMI' ? server_url : `https://${ app_id.slice(0, 8).toLowerCase() }.api.lncldglobal.com`;
+
+    if (api_server) {
+      fetchData(api_server);
+    } else {
+      fetch('https://app-router.leancloud.cn/2/route?appId=' + app_id)
+        .then(resp => resp.json())
+        .then(({api_server}) => {
+          fetchData('https://' + api_server);
+        });
+    }
+  })();
+</script>
+
+
+
+
+
+
+  <script  src="https://cdn.staticfile.org/tocbot/4.11.1/tocbot.min.js" ></script>
+  <script>
+    $(document).ready(function () {
+      var boardCtn = $('#board-ctn');
+      var boardTop = boardCtn.offset().top;
+
+      tocbot.init({
+        tocSelector: '#tocbot',
+        contentSelector: 'article.markdown-body',
+        headingSelector: 'h1,h2,h3,h4,h5,h6',
+        linkClass: 'tocbot-link',
+        activeLinkClass: 'tocbot-active-link',
+        listClass: 'tocbot-list',
+        isCollapsedClass: 'tocbot-is-collapsed',
+        collapsibleClass: 'tocbot-is-collapsible',
+        collapseDepth: 0,
+        scrollSmooth: true,
+        headingsOffset: -boardTop
+      });
+      if ($('.toc-list-item').length > 0) {
+        $('#toc').css('visibility', 'visible');
+      }
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/typed.js/2.0.11/typed.min.js" ></script>
+  <script>
+    var typed = new Typed('#subtitle', {
+      strings: [
+        '  ',
+        "理解信息&nbsp;",
+      ],
+      cursorChar: "_",
+      typeSpeed: 70,
+      loop: false,
+    });
+    typed.stop();
+    $(document).ready(function () {
+      $(".typed-cursor").addClass("h2");
+      typed.start();
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/anchor-js/4.2.2/anchor.min.js" ></script>
+  <script>
+    anchors.options = {
+      placement: "right",
+      visible: "hover",
+      
+    };
+    var el = "h1,h2,h3,h4,h5,h6".split(",");
+    var res = [];
+    for (item of el) {
+      res.push(".markdown-body > " + item)
+    }
+    anchors.add(res.join(", "))
+  </script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+  <script>
+    var path = "/local-search.xml";
+    var inputArea = document.querySelector("#local-search-input");
+    inputArea.onclick = function () {
+      searchFunc(path, 'local-search-input', 'local-search-result');
+      this.onclick = null
+    }
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <script>
+    $('#post img:not(.no-zoom img, img[no-zoom]), img[zoom]').each(
+      function () {
+        var element = document.createElement('a');
+        $(element).attr('data-fancybox', 'images');
+        $(element).attr('href', $(this).attr('src'));
+        $(this).wrap(element);
+      }
+    );
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+</body>
+</html>
